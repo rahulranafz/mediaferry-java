@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ProofingComponent"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="271.355">
+  <properties />
+  
+  
+            <testcase name="proofingComponentTest" time="67.917" classname="tests.ProofingComponentTest" />
+                <testcase name="creatingNewProject" time="203.438" classname="tests.ProofingComponentTest" />
+      
+</testsuite>

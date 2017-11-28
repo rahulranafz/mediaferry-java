@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QueryAction Via Email"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="100.326">
+  <properties />
+  
+  
+            <testcase name="loginWithValidCredentials" time="80.269" classname="tests.QueryEmailTriggerTest" />
+                <testcase name="sendQuery" time="20.057" classname="tests.QueryEmailTriggerTest" />
+      
+</testsuite>

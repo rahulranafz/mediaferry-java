@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UploadAssets Via Proofing"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="170.697">
+  <properties />
+  
+  
+            <testcase name="uploadingAssetsByProofingWindow" time="170.697" classname="tests.UploadAssetsProofingTest" />
+      
+</testsuite>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RespondToQuery Via Email"
+           tests="5"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="155.532">
+  <properties />
+            <testcase name="verifyStatusLink" time="0.137" classname="tests.RespondViaMailTest">
+                <failure type="java.lang.AssertionError"
+                  message="The following asserts failed:
+expected [true] but found [false], expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false], expected [true] but found [false]
+  org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+  steps.ActiveProjectsSteps.verifyingStatusLnkSteps(ActiveProjectsSteps.java:105)
+  tests.RespondViaMailTest.verifyStatusLink(RespondViaMailTest.java:62)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+  org.testng.TestRunner.privateRun(TestRunner.java:771)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+  org.testng.SuiteRunner.run(SuiteRunner.java:259)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+  org.testng.TestNG.run(TestNG.java:1032)
+  org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
+  org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="respondingViaMailNotLogin" time="47.855" classname="tests.RespondViaMailTest" />
+                <testcase name="verifyQueryLink" time="10.371" classname="tests.RespondViaMailTest" />
+                <testcase name="sendQuery" time="47.196" classname="tests.RespondViaMailTest" />
+                <testcase name="respondingViaMailWhileLogin" time="49.973" classname="tests.RespondViaMailTest" />
+      
+</testsuite>

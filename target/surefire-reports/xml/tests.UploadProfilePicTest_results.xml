@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UploadProfilePic"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="49.558">
+  <properties />
+  
+  
+            <testcase name="uploadProfile" time="36.260" classname="tests.UploadProfilePicTest" />
+                <testcase name="loginWithValidCredentials" time="13.298" classname="tests.UploadProfilePicTest" />
+      
+</testsuite>

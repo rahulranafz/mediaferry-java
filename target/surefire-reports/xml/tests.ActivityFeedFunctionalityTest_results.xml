@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ActivityFeedFunctionality"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="26.942">
+  <properties />
+  
+  
+            <testcase name="activityFeedFunctionality" time="26.942" classname="tests.ActivityFeedFunctionalityTest" />
+      
+</testsuite>

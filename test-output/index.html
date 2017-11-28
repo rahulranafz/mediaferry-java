@@ -1,0 +1,1517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Mediaferry_RegressionSuite">
+              <span class="suite-name border-failed">Mediaferry_RegressionSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Mediaferry_RegressionSuite">
+                    <span>D:\workspacejava\Mediaferry\Mediaferry\testSuites\RegressionTests.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Mediaferry_RegressionSuite">
+                    <span class="test-stats">15 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Mediaferry_RegressionSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Mediaferry_RegressionSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Mediaferry_RegressionSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Mediaferry_RegressionSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Mediaferry_RegressionSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 8 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Mediaferry_RegressionSuite" class="hide-methods failed suite-Mediaferry_RegressionSuite"> (hide)</a> <!-- hide-methods failed suite-Mediaferry_RegressionSuite -->
+                      <a href="#" panel-name="suite-Mediaferry_RegressionSuite" class="show-methods failed suite-Mediaferry_RegressionSuite"> (show)</a> <!-- show-methods failed suite-Mediaferry_RegressionSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-Mediaferry_RegressionSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ActivityFeedFunctionalityTest" hash-for-method="activityFeedFunctionality">activityFeedFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ProofingComponentTest" hash-for-method="creatingNewProject">creatingNewProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ShareProjectTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ProofingComponentTest" hash-for-method="proofingComponentTest">proofingComponentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ShareProjectTest" hash-for-method="shareProject">shareProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="verifyStatusLink">verifyStatusLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="verifyStatusLink">verifyStatusLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondViaMailTest" hash-for-method="verifyStatusLink">verifyStatusLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Mediaferry_RegressionSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Mediaferry_RegressionSuite" class="hide-methods passed suite-Mediaferry_RegressionSuite"> (hide)</a> <!-- hide-methods passed suite-Mediaferry_RegressionSuite -->
+                      <a href="#" panel-name="suite-Mediaferry_RegressionSuite" class="show-methods passed suite-Mediaferry_RegressionSuite"> (show)</a> <!-- show-methods passed suite-Mediaferry_RegressionSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-Mediaferry_RegressionSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ApproveActionTest" hash-for-method="ApproveActionFunctionality">ApproveActionFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.GlobalSearchTest" hash-for-method="ApproveActionFunctionality">ApproveActionFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ProofingFromActivityFeedTest" hash-for-method="ApproveActionFunctionality">ApproveActionFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ProofingFromActiveProjectsTest" hash-for-method="ApproveActionFunctionality">ApproveActionFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ChangePasswordTest" hash-for-method="changePassword">changePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryEmailTriggerTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ChangePasswordTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.UploadProfilePicTest" hash-for-method="loginWithValidCredentials">loginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="respondToQuery">respondToQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondViaMailTest" hash-for-method="respondingViaMailNotLogin">respondingViaMailNotLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondViaMailTest" hash-for-method="respondingViaMailWhileLogin">respondingViaMailWhileLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="sendQuery">sendQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryEmailTriggerTest" hash-for-method="sendQuery">sendQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="sendQuery">sendQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondViaMailTest" hash-for-method="sendQuery">sendQuery</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="statusVerificationAfterClickOnCloseBtn">statusVerificationAfterClickOnCloseBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="statusVerifyOnNotRespond">statusVerifyOnNotRespond</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.UploadProfilePicTest" hash-for-method="uploadProfile">uploadProfile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.UploadAssetsProofingTest" hash-for-method="uploadingAssetsByProofingWindow">uploadingAssetsByProofingWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.UploadAssetsRespondTest" hash-for-method="uploadingAssetsByRespondWindow">uploadingAssetsByRespondWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ChangePasswordTest" hash-for-method="verifyChangePassword">verifyChangePassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="verifyQueryLink">verifyQueryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="verifyQueryLink">verifyQueryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondViaMailTest" hash-for-method="verifyQueryLink">verifyQueryLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.QueryActionTest" hash-for-method="verifyValidationMessage">verifyValidationMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.ChangePasswordTest" hash-for-method="verifyValidationMsg">verifyValidationMsg</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Mediaferry_RegressionSuite" title="tests.RespondFunctionalityTest" hash-for-method="verifyValidationMsgRespond">verifyValidationMsgRespond</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Mediaferry_RegressionSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Mediaferry_RegressionSuite" class="panel Mediaferry_RegressionSuite">
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ShareProjectTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@src=&apos;https://devso.mediaferry.com/mf-s40qa/sitetheme_new/img/loading-spinner-grey.gif&apos;] (tried for 180 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at BaseClasses.BasePage.waitForElementVisibility(BasePage.java:17)
+	at pages.CreateNewProjectPage.waitForSpinnerInvisibility(CreateNewProjectPage.java:331)
+	at steps.CreateNewProjectSteps.submittingJob(CreateNewProjectSteps.java:90)
+	at tests.ShareProjectTest.loginWithValidCredentials(ShareProjectTest.java:42)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[@src=&apos;https://devso.mediaferry.com/mf-s40qa/sitetheme_new/img/loading-spinner-grey.gif&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ABC-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="shareProject">
+                  </a> <!-- shareProject -->
+                  <span class="method-name">shareProject</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: f_project (tried for 180 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at BaseClasses.BasePage.waitForElementVisibility(BasePage.java:17)
+	at pages.ActiveProjectsPage.enterProjectNameInSearchField(ActiveProjectsPage.java:46)
+	at steps.ActiveProjectsSteps.selectProject(ActiveProjectsSteps.java:18)
+	at tests.ShareProjectTest.shareProject(ShareProjectTest.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: f_project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ABC-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RespondFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusLink">
+                  </a> <!-- verifyStatusLink -->
+                  <span class="method-name">verifyStatusLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+expected [185154] but found [1]
+	at steps.ActiveProjectsSteps.verifyingStatusLnkSteps(ActiveProjectsSteps.java:105)
+	at tests.RespondFunctionalityTest.verifyStatusLink(RespondFunctionalityTest.java:79)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RespondViaMailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusLink">
+                  </a> <!-- verifyStatusLink -->
+                  <span class="method-name">verifyStatusLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false], expected [true] but found [false]
+	at steps.ActiveProjectsSteps.verifyingStatusLnkSteps(ActiveProjectsSteps.java:105)
+	at tests.RespondViaMailTest.verifyStatusLink(RespondViaMailTest.java:62)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.QueryActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusLink">
+                  </a> <!-- verifyStatusLink -->
+                  <span class="method-name">verifyStatusLink</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+expected [185152] but found [1]
+	at steps.ActiveProjectsSteps.verifyingStatusLnkSteps(ActiveProjectsSteps.java:105)
+	at tests.QueryActionTest.verifyStatusLink(QueryActionTest.java:70)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ProofingComponentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="creatingNewProject">
+                  </a> <!-- creatingNewProject -->
+                  <span class="method-name">creatingNewProject</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //img[@src=&apos;https://devso.mediaferry.com/mf-s40qa/sitetheme_new/img/loading-spinner-grey.gif&apos;] (tried for 180 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at BaseClasses.BasePage.waitForElementVisibility(BasePage.java:17)
+	at pages.CreateNewProjectPage.waitForSpinnerInvisibility(CreateNewProjectPage.java:331)
+	at steps.CreateNewProjectSteps.submittingJob(CreateNewProjectSteps.java:90)
+	at tests.ProofingComponentTest.creatingNewProject(ProofingComponentTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.xpath: //img[@src=&apos;https://devso.mediaferry.com/mf-s40qa/sitetheme_new/img/loading-spinner-grey.gif&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ABC-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="proofingComponentTest">
+                  </a> <!-- proofingComponentTest -->
+                  <span class="method-name">proofingComponentTest</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.id: f_project (tried for 180 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+	at BaseClasses.BasePage.waitForElementVisibility(BasePage.java:17)
+	at pages.ActiveProjectsPage.enterProjectNameInSearchField(ActiveProjectsPage.java:46)
+	at steps.ActiveProjectsSteps.selectProjectForEdit(ActiveProjectsSteps.java:24)
+	at tests.ProofingComponentTest.proofingComponentTest(ProofingComponentTest.java:51)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.id: f_project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ABC-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:883)
+	at java.util.Optional.orElseThrow(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:882)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+	... 28 more
+... Removed 24 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ActivityFeedFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activityFeedFunctionality">
+                  </a> <!-- activityFeedFunctionality -->
+                  <span class="method-name">activityFeedFunctionality</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: Element &lt;a href=&quot;javascript:void(0);&quot; onclick=&quot;chat_fun(&apos;861251&apos;,&apos;My Test Project  412_2017-10-12&apos;)&quot; class=&quot;btn blue icn-only&quot; style=&quot;height:33px;margin-top:9px;&quot;&gt;...&lt;/a&gt; is not clickable at point (1261, 314). Other element would receive the click: &lt;div class=&quot;blockUI blockOverlay&quot; style=&quot;z-index: 1000; border: none; margin: 0px; padding: 0px; width: 100%; height: 100%; top: 0px; left: 0px; background-color: rgb(0, 0, 0); opacity: 0.1; cursor: wait; position: absolute;&quot;&gt;&lt;/div&gt;
+  (Session info: chrome=62.0.3202.94)
+  (Driver info: chromedriver=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.5.3&apos;, revision: &apos;a88d25fe6b&apos;, time: &apos;2017-08-29T12:42:44.417Z&apos;
+System info: host: &apos;ABC-PC&apos;, ip: &apos;192.168.0.2&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f), userDataDir=C:\Users\abc\AppData\Local\Temp\scoped_dir2952_12804}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=62.0.3202.94, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 797351908a605dc2e0d180dce4c01304
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:275)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at pages.ActivityFeedPage.clickOnPostCommentIcon(ActivityFeedPage.java:170)
+	at steps.ActivityFeedSteps.commentOnProjectSteps(ActivityFeedSteps.java:85)
+	at tests.ActivityFeedFunctionalityTest.activityFeedFunctionality(ActivityFeedFunctionalityTest.java:49)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-failed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UploadAssetsRespondTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadingAssetsByRespondWindow">
+                  </a> <!-- uploadingAssetsByRespondWindow -->
+                  <span class="method-name">uploadingAssetsByRespondWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RespondViaMailTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="respondingViaMailNotLogin">
+                  </a> <!-- respondingViaMailNotLogin -->
+                  <span class="method-name">respondingViaMailNotLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="respondingViaMailWhileLogin">
+                  </a> <!-- respondingViaMailWhileLogin -->
+                  <span class="method-name">respondingViaMailWhileLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendQuery">
+                  </a> <!-- sendQuery -->
+                  <span class="method-name">sendQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQueryLink">
+                  </a> <!-- verifyQueryLink -->
+                  <span class="method-name">verifyQueryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.QueryActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendQuery">
+                  </a> <!-- sendQuery -->
+                  <span class="method-name">sendQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusVerificationAfterClickOnCloseBtn">
+                  </a> <!-- statusVerificationAfterClickOnCloseBtn -->
+                  <span class="method-name">statusVerificationAfterClickOnCloseBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQueryLink">
+                  </a> <!-- verifyQueryLink -->
+                  <span class="method-name">verifyQueryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidationMessage">
+                  </a> <!-- verifyValidationMessage -->
+                  <span class="method-name">verifyValidationMessage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UploadAssetsProofingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadingAssetsByProofingWindow">
+                  </a> <!-- uploadingAssetsByProofingWindow -->
+                  <span class="method-name">uploadingAssetsByProofingWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ChangePasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changePassword">
+                  </a> <!-- changePassword -->
+                  <span class="method-name">changePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyChangePassword">
+                  </a> <!-- verifyChangePassword -->
+                  <span class="method-name">verifyChangePassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidationMsg">
+                  </a> <!-- verifyValidationMsg -->
+                  <span class="method-name">verifyValidationMsg</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProofingFromActiveProjectsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveActionFunctionality">
+                  </a> <!-- ApproveActionFunctionality -->
+                  <span class="method-name">ApproveActionFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.UploadProfilePicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uploadProfile">
+                  </a> <!-- uploadProfile -->
+                  <span class="method-name">uploadProfile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ApproveActionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveActionFunctionality">
+                  </a> <!-- ApproveActionFunctionality -->
+                  <span class="method-name">ApproveActionFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProofingFromActivityFeedTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveActionFunctionality">
+                  </a> <!-- ApproveActionFunctionality -->
+                  <span class="method-name">ApproveActionFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.GlobalSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ApproveActionFunctionality">
+                  </a> <!-- ApproveActionFunctionality -->
+                  <span class="method-name">ApproveActionFunctionality</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RespondFunctionalityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="respondToQuery">
+                  </a> <!-- respondToQuery -->
+                  <span class="method-name">respondToQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendQuery">
+                  </a> <!-- sendQuery -->
+                  <span class="method-name">sendQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statusVerifyOnNotRespond">
+                  </a> <!-- statusVerifyOnNotRespond -->
+                  <span class="method-name">statusVerifyOnNotRespond</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQueryLink">
+                  </a> <!-- verifyQueryLink -->
+                  <span class="method-name">verifyQueryLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyValidationMsgRespond">
+                  </a> <!-- verifyValidationMsgRespond -->
+                  <span class="method-name">verifyValidationMsgRespond</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+          <div class="suite-Mediaferry_RegressionSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.QueryEmailTriggerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithValidCredentials">
+                  </a> <!-- loginWithValidCredentials -->
+                  <span class="method-name">loginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendQuery">
+                  </a> <!-- sendQuery -->
+                  <span class="method-name">sendQuery</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Mediaferry_RegressionSuite-class-passed -->
+        </div> <!-- panel Mediaferry_RegressionSuite -->
+        <div panel-name="test-xml-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspacejava\Mediaferry\Mediaferry\testSuites\RegressionTests.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Mediaferry_RegressionSuite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utilities.ScreenshotOnFailureListener&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;UploadAssets Via Proofing&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.UploadAssetsProofingTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadAssets Via Proofing --&gt;
+  &lt;test name=&quot;UploadAssets Via Respond&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.UploadAssetsRespondTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadAssets Via Respond --&gt;
+  &lt;test name=&quot;QueryAction&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.QueryActionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QueryAction --&gt;
+  &lt;test name=&quot;QueryAction Via Email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.QueryEmailTriggerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- QueryAction Via Email --&gt;
+  &lt;test name=&quot;RespondToQuery&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.RespondFunctionalityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RespondToQuery --&gt;
+  &lt;test name=&quot;RespondToQuery Via Email&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.RespondViaMailTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RespondToQuery Via Email --&gt;
+  &lt;test name=&quot;ChangePassword&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ChangePasswordTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChangePassword --&gt;
+  &lt;test name=&quot;UploadProfilePic&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.UploadProfilePicTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- UploadProfilePic --&gt;
+  &lt;test name=&quot;ActivityFeedFunctionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ActivityFeedFunctionalityTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ActivityFeedFunctionality --&gt;
+  &lt;test name=&quot;SharingProject&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ShareProjectTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SharingProject --&gt;
+  &lt;test name=&quot;ProofingComponent&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProofingComponentTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProofingComponent --&gt;
+  &lt;test name=&quot;Approve Action&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ApproveActionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Approve Action --&gt;
+  &lt;test name=&quot;Global Search&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.GlobalSearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Global Search --&gt;
+  &lt;test name=&quot;Proofing From Activity Feed&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProofingFromActivityFeedTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Proofing From Activity Feed --&gt;
+  &lt;test name=&quot;Proofing From Active Projects&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ProofingFromActiveProjectsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Proofing From Active Projects --&gt;
+&lt;/suite&gt; &lt;!-- Mediaferry_RegressionSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Mediaferry_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">UploadAssets Via Proofing (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadAssets Via Respond (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QueryAction (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">QueryAction Via Email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RespondToQuery (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">RespondToQuery Via Email (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChangePassword (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">UploadProfilePic (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ActivityFeedFunctionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SharingProject (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ProofingComponent (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Approve Action (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Global Search (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Proofing From Activity Feed (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Proofing From Active Projects (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Mediaferry_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Mediaferry_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Mediaferry_RegressionSuite');
+function tableData_Mediaferry_RegressionSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'creatingNewProject')
+data.setCell(0, 2, 'tests.ProofingComponentTest')
+data.setCell(0, 3, 411205);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginWithValidCredentials')
+data.setCell(1, 2, 'tests.ShareProjectTest')
+data.setCell(1, 3, 238569);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'ApproveActionFunctionality')
+data.setCell(2, 2, 'tests.GlobalSearchTest')
+data.setCell(2, 3, 234139);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginWithValidCredentials')
+data.setCell(3, 2, 'tests.UploadProfilePicTest')
+data.setCell(3, 3, 194217);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'ApproveActionFunctionality')
+data.setCell(4, 2, 'tests.ProofingFromActiveProjectsTest')
+data.setCell(4, 3, 190710);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'shareProject')
+data.setCell(5, 2, 'tests.ShareProjectTest')
+data.setCell(5, 3, 180516);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'proofingComponentTest')
+data.setCell(6, 2, 'tests.ProofingComponentTest')
+data.setCell(6, 3, 180067);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'ApproveActionFunctionality')
+data.setCell(7, 2, 'tests.ProofingFromActivityFeedTest')
+data.setCell(7, 3, 175436);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginWithValidCredentials')
+data.setCell(8, 2, 'tests.QueryActionTest')
+data.setCell(8, 3, 140341);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'uploadingAssetsByProofingWindow')
+data.setCell(9, 2, 'tests.UploadAssetsProofingTest')
+data.setCell(9, 3, 140049);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'uploadingAssetsByRespondWindow')
+data.setCell(10, 2, 'tests.UploadAssetsRespondTest')
+data.setCell(10, 3, 115695);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginWithValidCredentials')
+data.setCell(11, 2, 'tests.QueryEmailTriggerTest')
+data.setCell(11, 3, 84811);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'ApproveActionFunctionality')
+data.setCell(12, 2, 'tests.ApproveActionTest')
+data.setCell(12, 3, 82979);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginWithValidCredentials')
+data.setCell(13, 2, 'tests.RespondFunctionalityTest')
+data.setCell(13, 3, 82347);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'sendQuery')
+data.setCell(14, 2, 'tests.RespondViaMailTest')
+data.setCell(14, 3, 45392);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'respondingViaMailWhileLogin')
+data.setCell(15, 2, 'tests.RespondViaMailTest')
+data.setCell(15, 3, 39190);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'activityFeedFunctionality')
+data.setCell(16, 2, 'tests.ActivityFeedFunctionalityTest')
+data.setCell(16, 3, 33202);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'respondingViaMailNotLogin')
+data.setCell(17, 2, 'tests.RespondViaMailTest')
+data.setCell(17, 3, 31431);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginWithValidCredentials')
+data.setCell(18, 2, 'tests.ChangePasswordTest')
+data.setCell(18, 3, 30041);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'uploadProfile')
+data.setCell(19, 2, 'tests.UploadProfilePicTest')
+data.setCell(19, 3, 24472);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'sendQuery')
+data.setCell(20, 2, 'tests.QueryEmailTriggerTest')
+data.setCell(20, 3, 19626);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sendQuery')
+data.setCell(21, 2, 'tests.RespondFunctionalityTest')
+data.setCell(21, 3, 12446);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyQueryLink')
+data.setCell(22, 2, 'tests.RespondViaMailTest')
+data.setCell(22, 3, 11465);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyValidationMessage')
+data.setCell(23, 2, 'tests.QueryActionTest')
+data.setCell(23, 3, 9252);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyChangePassword')
+data.setCell(24, 2, 'tests.ChangePasswordTest')
+data.setCell(24, 3, 9251);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'changePassword')
+data.setCell(25, 2, 'tests.ChangePasswordTest')
+data.setCell(25, 3, 8209);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'sendQuery')
+data.setCell(26, 2, 'tests.QueryActionTest')
+data.setCell(26, 3, 5060);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyValidationMsgRespond')
+data.setCell(27, 2, 'tests.RespondFunctionalityTest')
+data.setCell(27, 3, 3915);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'statusVerifyOnNotRespond')
+data.setCell(28, 2, 'tests.RespondFunctionalityTest')
+data.setCell(28, 3, 3533);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'respondToQuery')
+data.setCell(29, 2, 'tests.RespondFunctionalityTest')
+data.setCell(29, 3, 3509);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyValidationMsg')
+data.setCell(30, 2, 'tests.ChangePasswordTest')
+data.setCell(30, 3, 3194);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'statusVerificationAfterClickOnCloseBtn')
+data.setCell(31, 2, 'tests.QueryActionTest')
+data.setCell(31, 3, 2774);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyStatusLink')
+data.setCell(32, 2, 'tests.RespondFunctionalityTest')
+data.setCell(32, 3, 270);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyQueryLink')
+data.setCell(33, 2, 'tests.QueryActionTest')
+data.setCell(33, 3, 192);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyQueryLink')
+data.setCell(34, 2, 'tests.RespondFunctionalityTest')
+data.setCell(34, 3, 192);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyStatusLink')
+data.setCell(35, 2, 'tests.RespondViaMailTest')
+data.setCell(35, 3, 147);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyStatusLink')
+data.setCell(36, 2, 'tests.QueryActionTest')
+data.setCell(36, 3, 107);
+window.suiteTableData['Mediaferry_RegressionSuite']= { tableData: data, tableDiv: 'times-div-Mediaferry_RegressionSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 45 minutes</span>
+              <div id="times-div-Mediaferry_RegressionSuite">
+              </div> <!-- times-div-Mediaferry_RegressionSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Mediaferry_RegressionSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Mediaferry_RegressionSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UploadAssetsProofingTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">uploadingAssetsByProofingWindow</span>
+                <span class="method-start">11066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">151119 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UploadAssetsRespondTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">151973 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">uploadingAssetsByRespondWindow</span>
+                <span class="method-start">161507 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.QueryActionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">277221 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">288955 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidationMessage</span>
+                <span class="method-start">429298 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusVerificationAfterClickOnCloseBtn</span>
+                <span class="method-start">438551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendQuery</span>
+                <span class="method-start">441328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyQueryLink</span>
+                <span class="method-start">446391 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStatusLink</span>
+                <span class="method-start">446589 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">447087 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.QueryEmailTriggerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">447916 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">457578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendQuery</span>
+                <span class="method-start">542396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">562028 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RespondFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">562781 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">572243 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendQuery</span>
+                <span class="method-start">654592 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidationMsgRespond</span>
+                <span class="method-start">667040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statusVerifyOnNotRespond</span>
+                <span class="method-start">670963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">respondToQuery</span>
+                <span class="method-start">674497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyQueryLink</span>
+                <span class="method-start">678010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStatusLink</span>
+                <span class="method-start">678203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">678826 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RespondViaMailTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">679526 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">sendQuery</span>
+                <span class="method-start">699341 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">respondingViaMailWhileLogin</span>
+                <span class="method-start">744737 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyQueryLink</span>
+                <span class="method-start">783928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyStatusLink</span>
+                <span class="method-start">795394 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">respondingViaMailNotLogin</span>
+                <span class="method-start">795924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">827358 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ChangePasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">828080 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">837638 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyValidationMsg</span>
+                <span class="method-start">867680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">changePassword</span>
+                <span class="method-start">870879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyChangePassword</span>
+                <span class="method-start">879089 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">888343 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UploadProfilePicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">889135 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">898959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">uploadProfile</span>
+                <span class="method-start">1093177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1117652 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ActivityFeedFunctionalityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">1118359 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">activityFeedFunctionality</span>
+                <span class="method-start">1141159 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1174799 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ShareProjectTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">1175552 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginWithValidCredentials</span>
+                <span class="method-start">1186040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">shareProject</span>
+                <span class="method-start">1425013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1605923 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProofingComponentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">1606693 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">creatingNewProject</span>
+                <span class="method-start">1617345 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">proofingComponentTest</span>
+                <span class="method-start">2029240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2209696 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ApproveActionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">2210479 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ApproveActionFunctionality</span>
+                <span class="method-start">2220298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2303280 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.GlobalSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">2304047 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ApproveActionFunctionality</span>
+                <span class="method-start">2314155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2548298 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProofingFromActivityFeedTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">2549109 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ApproveActionFunctionality</span>
+                <span class="method-start">2558838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2734278 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProofingFromActiveProjectsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">start</span>
+                <span class="method-start">2735064 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ApproveActionFunctionality</span>
+                <span class="method-start">2744430 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2935143 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

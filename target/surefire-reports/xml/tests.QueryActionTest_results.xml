@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QueryAction"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="99.454">
+  <properties />
+  
+  
+            <testcase name="loginWithValidCredentials" time="83.410" classname="tests.QueryActionTest" />
+                <testcase name="statusVerificationAfterClickOnCloseBtn" time="2.438" classname="tests.QueryActionTest" />
+                <testcase name="verifyQueryLink" time="0.151" classname="tests.QueryActionTest" />
+                <testcase name="verifyValidationMessage" time="9.033" classname="tests.QueryActionTest" />
+                <testcase name="verifyStatusLink" time="0.100" classname="tests.QueryActionTest" />
+                <testcase name="sendQuery" time="4.322" classname="tests.QueryActionTest" />
+      
+</testsuite>

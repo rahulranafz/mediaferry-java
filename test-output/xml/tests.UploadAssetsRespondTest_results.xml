@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UploadAssets Via Respond"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="113.182">
+  <properties />
+  
+  
+            <testcase name="uploadingAssetsByRespondWindow" time="113.182" classname="tests.UploadAssetsRespondTest" />
+      
+</testsuite>

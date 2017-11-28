@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UploadingAssets"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="438.924">
+  <properties />
+  
+  
+            <testcase name="uploadAssetsByActiveFeedLnk" time="99.979" classname="tests.UploadingAssetsTest" />
+                <testcase name="uploadAssetsWhileCreatingProject" time="97.751" classname="tests.UploadingAssetsTest" />
+                <testcase name="uploadAssetsActivityFeeds" time="129.660" classname="tests.UploadingAssetsTest" />
+                <testcase name="uploadAssetsEditActiveProject" time="111.534" classname="tests.UploadingAssetsTest" />
+      
+</testsuite>

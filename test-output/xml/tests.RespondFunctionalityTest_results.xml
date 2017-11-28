@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RespondToQuery"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="109.659">
+  <properties />
+  
+  
+            <testcase name="sendQuery" time="13.815" classname="tests.RespondFunctionalityTest" />
+                <testcase name="verifyQueryLink" time="0.120" classname="tests.RespondFunctionalityTest" />
+                <testcase name="verifyStatusLink" time="0.126" classname="tests.RespondFunctionalityTest" />
+                <testcase name="verifyValidationMsgRespond" time="3.334" classname="tests.RespondFunctionalityTest" />
+                <testcase name="statusVerifyOnNotRespond" time="3.602" classname="tests.RespondFunctionalityTest" />
+                <testcase name="loginWithValidCredentials" time="85.279" classname="tests.RespondFunctionalityTest" />
+                <testcase name="respondToQuery" time="3.383" classname="tests.RespondFunctionalityTest" />
+      
+</testsuite>

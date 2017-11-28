@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SharingProject"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="90.341">
+  <properties />
+  
+  
+            <testcase name="shareProject" time="9.323" classname="tests.ShareProjectTest" />
+                <testcase name="loginWithValidCredentials" time="81.018" classname="tests.ShareProjectTest" />
+      
+</testsuite>

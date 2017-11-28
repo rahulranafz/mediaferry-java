@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mediaferry_RegressionSuite]">
+  <listeners>
+    <listener class-name="utilities.ScreenshotOnFailureListener"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="QueryAction(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="verifyStatusLink"/>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- QueryAction(failed) -->
+  <test name="RespondToQuery(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyStatusLink"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- RespondToQuery(failed) -->
+  <test name="RespondToQuery Via Email(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="verifyStatusLink"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- RespondToQuery Via Email(failed) -->
+  <test name="ActivityFeedFunctionality(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="activityFeedFunctionality"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- ActivityFeedFunctionality(failed) -->
+  <test name="SharingProject(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="shareProject"/>
+          <include name="start"/>
+          <include name="tearDown"/>
+          <include name="loginWithValidCredentials"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- SharingProject(failed) -->
+  <test name="ProofingComponent(failed)">
+    <classes>
+      <class name="tests.ShareProjectTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ShareProjectTest -->
+      <class name="tests.RespondViaMailTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.RespondViaMailTest -->
+      <class name="tests.UploadAssetsRespondTest">
+        <methods>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsRespondTest -->
+      <class name="tests.QueryActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.QueryActionTest -->
+      <class name="tests.ProofingFromActiveProjectsTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActiveProjectsTest -->
+      <class name="tests.UploadAssetsProofingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadAssetsProofingTest -->
+      <class name="tests.ChangePasswordTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ChangePasswordTest -->
+      <class name="tests.UploadProfilePicTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.UploadProfilePicTest -->
+      <class name="tests.ProofingFromActivityFeedTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ProofingFromActivityFeedTest -->
+      <class name="tests.ApproveActionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ApproveActionTest -->
+      <class name="tests.GlobalSearchTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.GlobalSearchTest -->
+      <class name="tests.RespondFunctionalityTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.RespondFunctionalityTest -->
+      <class name="tests.QueryEmailTriggerTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.QueryEmailTriggerTest -->
+      <class name="tests.ProofingComponentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="proofingComponentTest"/>
+          <include name="creatingNewProject"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- tests.ProofingComponentTest -->
+      <class name="tests.ActivityFeedFunctionalityTest">
+        <methods>
+          <include name="start"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.ActivityFeedFunctionalityTest -->
+    </classes>
+  </test> <!-- ProofingComponent(failed) -->
+</suite> <!-- Failed suite [Mediaferry_RegressionSuite] -->

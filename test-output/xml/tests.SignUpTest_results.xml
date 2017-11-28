@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SignUp"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="55.104">
+  <properties />
+  
+  
+            <testcase name="verifyMandatoryFieldsTest" time="0.675" classname="tests.SignUpTest" />
+                <testcase name="signupWithExistingAccount" time="2.054" classname="tests.SignUpTest" />
+                <testcase name="signupWithValidDeatils" time="52.375" classname="tests.SignUpTest" />
+      
+</testsuite>

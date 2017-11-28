@@ -1,0 +1,113 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mediaferry_RegressionSuite">
+	<test name='Login'>
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test>
+	<test name="SignUp">
+		<classes>
+			<class name="tests.SignUpTest" />
+		</classes>
+	</test>
+	<test name="Create Project">
+		<classes>
+			<class name="tests.CreateNewProjectTest" />
+		</classes>
+	</test>
+	<test name="Edit Project">
+		<classes>
+			<class name="tests.EditProjectTest" />
+		</classes>
+	</test>
+	<test name="UploadingAssets">
+		<classes>
+			<class name="tests.UploadingAssetsTest" />
+		</classes>
+	</test>
+	<test name="UploadAssets Via Proofing">
+		<classes>
+			<class name="tests.UploadAssetsProofingTest" />
+		</classes>
+	</test>
+	<test name="UploadAssets Via Respond">
+		<classes>
+			<class name="tests.UploadAssetsRespondTest" />
+		</classes>
+	</test>
+	<test name="QueryAction">
+		<classes>
+			<class name="tests.QueryActionTest" />
+		</classes>
+	</test>
+	<test name="QueryAction Via Email">
+		<classes>
+			<class name="tests.QueryEmailTriggerTest" />
+		</classes>
+	</test>
+	<test name="RespondToQuery">
+		<classes>
+			<class name="tests.RespondFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="RespondToQuery Via Email">
+		<classes>
+			<class name="tests.RespondViaMailTest" />
+		</classes>
+	</test>
+	<test name="ChangePassword">
+		<classes>
+			<class name="tests.ChangePasswordTest" />
+		</classes>
+	</test>
+	<!--
+	<test name="UploadProfilePic">
+		<classes>
+			<class name="tests.UploadProfilePicTest" />
+		</classes>
+	</test>-->
+	<test name="ActivityFeedFunctionality">
+		<classes>
+			<class name="tests.ActivityFeedFunctionalityTest" />
+		</classes>
+	</test>
+	<test name="SharingProject">
+		<classes>
+			<class name="tests.ShareProjectTest" />
+		</classes>
+	</test>
+	<test name="ProofingComponent">
+		<classes>
+			<class name="tests.ProofingComponentTest" />
+		</classes>
+	</test>
+
+	<test name="Approve Action">
+		<classes>
+			<class name="tests.ApproveActionTest" />
+		</classes>
+	</test>
+	<test name="Global Search">
+		<classes>
+			<class name="tests.GlobalSearchTest" />
+		</classes>
+	</test>
+	<test name="Proofing From Activity Feed">
+		<classes>
+			<class name="tests.ProofingFromActivityFeedTest" />
+		</classes>
+	</test>
+	<test name="Proofing From Active Projects">
+		<classes>
+			<class name="tests.ProofingFromActiveProjectsTest" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="utilities.ScreenshotOnFailureListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>
